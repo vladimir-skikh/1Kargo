@@ -1,0 +1,43 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1173px;
+}
+.button {
+  text-transform: uppercase;
+  border: none;
+  color: $white;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  &_red {
+    background-color: #e93b3b;
+  }
+  &-translate {
+    padding: 0;
+    width: 104px;
+    height: 27px;
+    background-color: transparent;
+    border: 1px solid $white;
+    transition: 0.2s;
+    border-radius: 0;
+    &:hover {
+      transition: 0.2s;
+      cursor: pointer;
+      color: rgba($white, 0.6);
+      border-color: rgba($white, 0.6);
+    }
+  }
+}
+.form-input {
+  width: 28rem;
+  height: 5rem;
+  padding: 2rem;
+  border: 1px solid #d7d8db;
+}
+.form-textarea {
+  padding: 1.5rem 2rem;
+  border: 1px solid #d7d8db;
+  width: 28rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
